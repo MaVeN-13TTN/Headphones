@@ -205,12 +205,16 @@ section{
     color: var(--main-color-white);
     /* height: 100vh; */
 }
+.our-results h1{
+    margin-top: 150px;
+}
+
 .our-results .results-lists{
     display: flex;
     justify-content: space-between;
     gap: 4rem;
     padding-top: 3rem;
-   
+    margin-bottom: 50px;
 }
 
 .results-lists .results-items{
