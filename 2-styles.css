@@ -136,7 +136,8 @@ section{
     
 }
 .welcome{
-    background-image: url(./images/headphones_hero_1.jpg);
+    max-width: 1000px;
+    background-image: url("./images/headphones_hero_1.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -164,6 +165,7 @@ section{
 /* what-we-do ###########################*/
 
 .what-we-do{
+    max-width: 1000px;
     padding-top: 3rem;
 }
 .what-we-do .service-lists {
@@ -195,10 +197,11 @@ section{
 /* our-results ######################## */
 
 .our-results{
-    background-image: url(./images/headphones_hero_2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    max-width: 1000px;
+    background-image :url("./images/headphones_hero_2.jpg");
+    background-size :cover;
+    background-repeat :no-repeat;
+    background-position :center;
     color: var(--main-color-white);
     /* height: 100vh; */
 }
@@ -212,7 +215,7 @@ section{
 }
 
 .results-lists .results-items{
-    background-image: url(./images/pentagone.png);
+    background-image: url("./images/pentagone.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
